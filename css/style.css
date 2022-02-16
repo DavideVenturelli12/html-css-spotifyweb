@@ -26,7 +26,7 @@ header{
     padding: 15px 25px 15px 15px;
     z-index: 2;
     background-color: black;
-    opacity: 0.;
+    opacity: 0.7;
     /*border: 2px dashed yellow;*/
 }
 
@@ -59,12 +59,13 @@ main{
 #left{
     width: 15%;
     height: 100%;
-    padding-top: 65px;
+    padding-top: 70px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: black;
     float: left;
     position: relative;
+    overflow: auto;
     /*border: 2px dashed yellow;*/
 }
 
@@ -164,7 +165,7 @@ main{
     color: white;
 }
 
-#right h1, h2{
+#right h1, h2, h3{
     color: white;
 }
 
@@ -179,7 +180,8 @@ main{
 
 #right p{
     color: gray;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 700;
 }
 
 #recently-container{
@@ -218,13 +220,143 @@ main{
     border-radius: 50%;
 }
 
+
+
 /**** / MAIN ****/
 
 /**** FOOTER ****/
 
 footer{
     height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgb(39, 39, 39);
+}
+
+#track-reproduced{
+    display: flex;
+}
+
+#track-reproduced img{
+    height: 35px;
+    width: auto;
+    margin-left: 10px;
+}
+
+#track-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#track-name h3{
+    font-size: 12px;
+}
+
+#track-name a{
+    text-decoration: none;
+    font-size: 10px;
+    color: gray;
+    font-weight: 700;
+}
+
+#track-name a:hover{
+    text-decoration: underline;
+}
+
+#liked-song{
+    display: flex;
+    align-items: center;
+}
+
+#liked-song a{
+    color: gray;
+}
+
+#liked-song i:last-child{
+    margin-left: 10px;
+}
+
+#liked-song i:hover{
+    color: white;
+}
+
+#track-command{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#command a{
+    color: white;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+#timeline{
+    display: flex;
+    align-items: center;
+}
+
+#play i{
+    font-size: 25px;
+}
+
+#play i:hover{
+    transform: scale(1.2);
+}
+
+#song-timeline{
+    height: 2px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+#song-timeline > div{
+    height: 2px;
+    width: 20%; 
+    background-color: white;
+    border-radius: 20px;
+}
+
+#timeline p{
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    margin: 0px 20px;
+}
+
+#share-sound{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#share-sound a{
+    color: white;
+    font-size: 12px;
+    margin: 0px 8px;
+}
+
+#volume{
+    height: 2px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#volume div{
+    height: 2px;
+    width: 20%; 
+    background-color: white;
+    border-radius: 20px;
 }
 
 /*** FOOTER ****/
