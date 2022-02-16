@@ -23,7 +23,7 @@ header{
     position: fixed;
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px;
+    padding: 15px 25px 15px 15px;
     z-index: 2;
     background-color: black;
     opacity: 0.6;
@@ -43,13 +43,17 @@ header #logo{
     border: 1.5px solid white;
 }
 
+#upgrade:hover{
+   transform: scale(1.1);
+}
+
 /**** / HEADER ****/
 
 /**** MAIN ****/
 
 main{
     height: 90%;
-    border: 2px dashed yellow;
+    /*border: 2px dashed yellow;*/
 }
 
 #left{
@@ -101,7 +105,7 @@ main{
 
 #profile-download{
     position: absolute;
-    bottom: 2px;
+    bottom: 5px;
 }
 
 #download img{
@@ -114,23 +118,88 @@ main{
 }
 
 #profile img{
-    height: 20px;
+    height: 15px;
+    margin-top: 10px;
 }
 
 #profile{
-    padding-top: 10px;
+    font-size: 12px;
     color: white;
 }
 
 #right{
     width: 85%;
     height: 100%;
+    padding: 75px 40px 0px 15px;
     background-color: #191936;
-    border: 2px dashed yellow;
-    float: left;    
+    float: left; 
+    overflow: auto;
+    /*border: 2px dashed yellow;*/ 
 }
 
+#right ul{
+    display: flex;
+    justify-content: center;
+}
 
+#right li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#right a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+
+#green-bar{
+    width: 40%;
+    margin: 5px 30% 20px 30%;
+    border-top: 1px solid rgb(166, 207, 127);
+}
+
+#right a:hover{
+    color: white;
+}
+
+#right h1, h2{
+    color: white;
+}
+
+#right h1{
+    margin-bottom: 25px;
+}
+
+#right p{
+    color: gray;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#recently-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.song{
+    width: 15.5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed yellow;
+}
+
+.song img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.song h2{
+    font-size: 14px;
+}
 
 
 
