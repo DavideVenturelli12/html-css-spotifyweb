@@ -26,7 +26,7 @@ header{
     padding: 15px 25px 15px 15px;
     z-index: 2;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.;
     /*border: 2px dashed yellow;*/
 }
 
@@ -156,7 +156,7 @@ main{
 
 #green-bar{
     width: 40%;
-    margin: 5px 30% 20px 30%;
+    margin: 5px 30% 0px 30%;
     border-top: 1px solid rgb(166, 207, 127);
 }
 
@@ -169,13 +169,17 @@ main{
 }
 
 #right h1{
-    margin-bottom: 25px;
+    margin: 30px 0px 5px 0px;
+}
+
+.song h2{
+    font-size: 14px;
+    padding-bottom: 10px;
 }
 
 #right p{
     color: gray;
     font-size: 12px;
-    padding-top: 10px;
 }
 
 #recently-container{
@@ -186,10 +190,11 @@ main{
 .song{
     width: 15.5%;
     height: auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px dashed yellow;
+    /*border: 2px dashed yellow;*/
 }
 
 .song img{
@@ -197,16 +202,31 @@ main{
     padding-bottom: 10px;
 }
 
-.song h2{
-    font-size: 14px;
+#suggested-for-you{
+    display: flex;
 }
 
+.banner, .artist{
+    margin-right: 15px;
+}
 
+#suggested-artists{
+    display: flex;
+}
 
-
-
-
-
+#suggested-artists img{
+    border-radius: 50%;
+}
 
 /**** / MAIN ****/
+
+/**** FOOTER ****/
+
+footer{
+    height: 10%;
+    background-color: rgb(39, 39, 39);
+}
+
+/*** FOOTER ****/
+
 
