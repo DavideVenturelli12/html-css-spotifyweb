@@ -1,0 +1,348 @@
+@media screen and (min-width: 360px) {
+    
+    /**** HEADER ****/
+
+    header{
+        font-size: 12px;
+        padding: 10px 2px;
+    }
+
+    #logo{
+        display: none;    
+    }
+
+    #small-logo{
+        display: inline-block;
+    }
+
+    #upgrade{
+        padding-top: 10px;
+        margin-right: 20px;
+    }
+
+    #upgrade:hover{
+        transform: scale(1.07);
+    }
+
+    /**** / HEADER ****/
+
+    /**** MAIN ****/
+
+    /** LEFT **/
+    
+    #left{
+        width: 10vw;
+        padding: 55px 0px 0px 0px;
+        position: relative;   
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #left-responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #left h2, #playlist{
+        display: none;
+    }
+
+    #profile-download{
+        display: none;
+    }
+
+    #profile-download-responsive{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 2px;
+        margin-left: 15px;
+    }
+
+    #profile-download-responsive img{
+        height: 15px;
+        padding: 0px;
+    }
+
+    #profile-download-responsive #download{
+        border:0;
+    }
+
+    /** / LEFT **/
+
+    /** RIGHT **/
+
+    #right{
+        width: 90vw;
+        padding-right: 2%;
+        padding-top: 60px;
+    }
+
+    #right ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #right a{   
+        font-size: 12px;
+    }
+
+    #green-bar{
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+
+    #recently-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .song{
+        width: 48%;
+    }
+
+    #right h2{
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    /** / RIGHT **/
+
+    /**** / MAIN ****/
+
+    /**** FOOTER ****/
+
+    footer{
+        display: flex;
+    }
+
+    #track-reproduced img{
+        height: 25px;
+        width: auto;
+        margin-top: 5px;
+    }
+
+    #track-name{
+        width: 15%;
+    }
+
+    #track-reproduced h3{
+        font-size: 0.6em;
+    }
+
+    #track-reproduced #name{
+        font-size: 0.5em;
+    }
+    
+    #liked-song{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    #timeline{
+        margin: 0px 5px;
+    }
+
+    #song-timeline{
+        width: 70%;
+        margin: 10px 2%;
+    }
+
+    #command a{
+        margin: 0px 2px;
+    }
+
+    #command i{
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    #timeline{
+        padding: 0px 5px;
+        margin-left: 10px;
+    }
+
+    #timeline p{
+        font-size: 8px;
+        margin: 0px
+    }
+
+    #share-sound a{
+        font-size: 8px;
+        margin: 0px 4px;
+    }
+
+    /**** / FOOTER ****/
+
+@media screen and (min-width: 720px) {
+    
+        /**** HEADER ****/
+    
+        header{
+            font-size: 12px;
+            padding: 10px 2px;
+        }
+    
+        #logo{
+            display: inline-block;
+            margin-left: 15px;    
+        }
+    
+        #small-logo{
+            display: none;
+        }
+    
+        #upgrade{
+            padding-top: 10px;
+            margin-right: 20px;
+            font-size: 10px;
+        }
+    
+        #upgrade:hover{
+            transform: scale(1.07);
+        }
+    
+        /**** / HEADER ****/
+    
+        /**** MAIN ****/
+    
+        /** LEFT **/
+        
+        #left{
+            width: 13vw;
+            padding: 60px 0px 0px 15px;
+            position: relative;   
+        }
+    
+        #menu{
+            display: inline-block;
+        }
+    
+        #left-responsive{
+            display: none;
+        }
+    
+        #left h2, #playlist{
+            display: inline-block;
+        }
+    
+        #profile-download{
+            display: inline-block;
+        }
+    
+        #profile-download-responsive{
+            display: none;
+        }
+
+    
+        /** / LEFT **/
+    
+        /** RIGHT **/
+    
+        #right{
+            width: 87vw;
+            padding-right: 2%;
+            padding-top: 60px;
+        }
+    
+        #right ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #recently-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .song{
+            width: 15.5%;
+            height: auto;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        .song h2{
+            display: block;
+        }
+
+        /** / RIGHT **/
+    
+        /**** / MAIN ****/
+    
+        /**** FOOTER ****/
+    
+        footer{
+            display: flex;
+        }
+    
+        #track-reproduced img{
+            height: 35px;
+            width: auto;
+            margin-top: 5px;
+        }
+    
+        #track-name{
+            width: 20%;
+        }
+    
+        #track-reproduced h3{
+            font-size: 12px;
+        }
+    
+        #name{
+            font-size: 10px;
+        }
+        
+        #liked-song{
+            display: flex;
+            flex-direction: row;
+            font-size: 16px;
+        }
+    
+        #timeline{
+            display: flex;
+            justify-content: center;
+        }
+    
+        #command{
+            display: flex;
+            justify-content: center;
+        }
+
+        #command i{
+            font-size: 14px;
+            margin: 0px 10px;
+        }
+
+        #play i{
+            font-size: 25px;
+        }
+           
+        #timeline p{
+            font-size: 10px;
+            color: white;
+            font-weight: 700;
+            margin: 0px 5px;
+        }
+    
+        #share-sound a{
+            color: white;
+            font-size: 12px;
+            margin: 0px 8px;
+        }
+    
+        /**** / FOOTER ****/
+
+    
+
+    

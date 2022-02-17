@@ -9,12 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responive.css">
     <title>spotify</title>
 </head>
 <body>
     <!-- HEADER -->
     <header>
         <img id="logo" src="img/logo.svg" alt="spotify logo">
+        <img id="small-logo" src="img/favicon.ico" alt="">
         <a id="upgrade" href="">EFFETTUA L'UPGRADE</a>
     </header>
     <!-- / HEADER -->
@@ -24,13 +26,20 @@
         <aside id="left">
             <nav>
                 <div>
-                    <ul>
+                    <ul id="menu">
                         <li><a href=""><img src="img/home.svg" alt="">Home</a></li>
                         <li><a href=""> <img src="img/search.svg" alt="">Cerca</a></li>
                         <li><a href=""><img src="img/libreria.svg" alt="">La Tua libreria</a></li>
                     </ul>
+
+                    <ul id="left-responsive">
+                        <li><a href=""><img src="img/home.svg" alt=""></a></li>
+                        <li><a href=""> <img src="img/search.svg" alt=""></a></li>
+                        <li><a href=""><img src="img/libreria.svg" alt=""></a></li>
+                    </ul>
+
                     <h2>PLAYLIST</h2>
-                    <ul>
+                    <ul id="playlist">
                         <li><a href=""><i class="fas fa-3x fa-plus-square"></i> Crea playlist</a></li>
                         <li><a href="">Nome playlist</a></li>
                         <li><a href="">Nome playlist</a></li>
@@ -45,6 +54,11 @@
                 <div id="profile-download">
                     <a id="download" href=""><img src="img/download.svg" alt=""> Install app</a>
                     <p id="profile"><img src="img/profile.svg" alt=""> John Doe</p>
+                </div>
+
+                <div id="profile-download-responsive">
+                    <a id="download" href=""><img src="img/download.svg" alt=""></a>
+                    <p id="profile"><img src="img/profile.svg" alt=""></p>
                 </div>
             </nav>
         </aside>
@@ -143,7 +157,7 @@
             </div>
             <div id="track-name">
                 <h3>Sinister</h3>
-                <a href="">Brano Nome</a>
+                <a id="name" href="">Brano Nome</a>
             </div>
             <div id="liked-song">
                 <a href=""><i class="far fa-heart"></i></a>
@@ -159,6 +173,7 @@
                 <a href=""><i class="fas fa-step-forward"></i></a>
                 <a href=""><i class="fas fa-redo"></i></a>      
             </div>
+
             <div id="timeline">
                 <p>0:25</p>
                 <div id="song-timeline">
